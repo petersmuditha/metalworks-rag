@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+finale.py
+ingest.py
+test_qdrant.py
+data/glassbox.db
+chroma_data/
+.glassbox/

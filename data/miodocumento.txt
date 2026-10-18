@@ -1,0 +1,19 @@
+MetalWorks S.p.A. - Rapporto Qualità e Difetti
+
+MetalWorks S.p.A. è un'azienda italiana specializzata nella produzione di componenti metallici di precisione per il settore automobilistico. Lo stabilimento principale si trova a Torino e impiega circa 250 dipendenti.
+
+Il reparto qualità registra quotidianamente i difetti riscontrati sui pezzi prodotti. I difetti più comuni includono:
+
+1. Crepe superficiali sul bordo dei componenti, con lunghezza variabile da 1 a 5 millimetri. Queste crepe si formano principalmente durante la fase di stampaggio a freddo.
+
+2. Ruggine e ossidazione sulla superficie, spesso causata da un trattamento di protezione insufficiente o da un'esposizione prolungata all'umidità durante lo stoccaggio.
+
+3. Distacco del rivestimento protettivo, con aree che vanno da 2 a 10 centimetri quadrati. Questo difetto è frequentemente associato a un ciclo di verniciatura troppo rapido.
+
+4. Deformazioni geometriche, come ovalizzazione dei fori o incurvamento delle flange, che compromettono l'assemblaggio finale.
+
+5. Inclusioni di materiale estraneo all'interno della lega metallica, rilevabili solo tramite esami radiografici.
+
+Il sistema RAG multimodale di MetalWorks consente agli ingegneri di cercare casi storici utilizzando descrizioni testuali. Le immagini dei difetti vengono elaborate con modelli CLIP, i rapporti audio degli operai vengono trascritti con Whisper, e tutti i dati vengono indicizzati in un database vettoriale Qdrant.
+
+L'obiettivo del progetto è ridurre il tempo medio di analisi di un nuovo difetto da 45 minuti a meno di 10 minuti, migliorando al contempo la coerenza delle decisioni tra diversi turni di lavoro.
